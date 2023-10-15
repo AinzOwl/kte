@@ -1,0 +1,21 @@
+{
+  "name": "ainz.uk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js && npx tailwindcss -i ./public/styles/tailwind.css -o ./public/styles/src.css",
+    "dev": "nodemon index.js && npx tailwindcss -i ./public/styles/tailwind.css -o ./public/styles/src.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "koa": "^2.14.2",
+    "koa-ejs": "^4.3.0",
+    "koa-router": "^11.0.2",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.1.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
